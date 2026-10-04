@@ -10,5 +10,5 @@ start:
     hlt          ; instruction: "CPU, go to sleep"
     jmp .hang    ; instruction: "if you ever wake up, go back to sleep"
     
-times 510 - ($ - $$) db 0    ; fill the file with zeros until byte 510
-dw 0xAA55                    ; write the 2 magic bytes at positions 511-512
+times 510 - ($ - $$) db 0    ; fill the file with zeros until byte 509
+dw 0xAA55                    ; write the 2 magic bytes at positions 510-511
