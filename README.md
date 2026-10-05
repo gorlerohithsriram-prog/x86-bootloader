@@ -77,6 +77,14 @@ Write a basic linker script (linker.ld) to make sure our C kernel is placed at a
 Update the bootloader to load this compiled C kernel from the disk into RAM, switch to 32-bit mode, and call kmain().
 Final Deliverable: The computer boots up, runs our Assembly Stage 1 and Stage 2 loaders, switches to 32-bit mode, and starts executing our C kernel.
 ```
+
+## Technologies used
+- Assembly Language
+- NASM
+- QEmu
+- C
+- Make
+
 ## Resources
 
 - [OSDev Wiki](https://wiki.osdev.org/)
