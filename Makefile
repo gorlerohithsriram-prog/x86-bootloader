@@ -26,4 +26,3 @@ clean:
 	rm -rf $(BUILD)/*
 
 .PHONY: all run hex clean
-
