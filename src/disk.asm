@@ -3,6 +3,7 @@
 
 %include "print_string.asm"
 
+mov ah,0x02
 mov dl, 0	;Drive 0
 mov ch, 3	;Cylinder 3
 mov dh, 1	;Head 1
